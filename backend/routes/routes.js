@@ -6,7 +6,7 @@ const ObjectId = require('mongoose').Types.ObjectId;
 const Employee = require('../models/employee.js');
 
 // GET, Post, Push and delete apis
-// Base Path of route : https://localhost:3000/employees
+// Base Path of route : http://localhost:3000/employees
 
 // Get API
 router.get('/',(req, res)=> {
